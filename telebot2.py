@@ -39,3 +39,4 @@ def matrix(message):
     msg = '<b>Матрица: Воскрешение</b>'
     bot.send_message(message.message.chat.id, msg, parse_mode='html')
     bot.send_photo(message.message.chat.id, photo)
+bot.polling()
